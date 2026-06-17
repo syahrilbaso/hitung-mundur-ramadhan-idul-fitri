@@ -1,3 +1,0 @@
-# Ramadhan Tiba
-
-Ramadhan Tiba
