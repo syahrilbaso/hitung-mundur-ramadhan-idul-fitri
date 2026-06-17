@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Countdown Ramadhan & Idul Fitri 1448 H</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-header">
+            <h1>🌙 Nusantara Countdown</h1>
+            <p>RAMADHAN · IDUL FITRI 1448 H</p>
+        </div>
+
+        <div class="dual-card">
+            <!-- Card Ramadhan -->
+            <div class="event-card card-ramadan">
+                <div class="event-title">
+                    <i class="fas fa-moon"></i>
+                    <h2>Ramadhan <small>1448 H</small></h2>
+                </div>
+                <div class="countdown-grid">
+                    <div class="time-box">
+                        <div class="number" id="ramadanDays">00</div>
+                        <div class="label">Hari</div>
+                    </div>
+                    <div class="time-box">
+                        <div class="number" id="ramadanHours">00</div>
+                        <div class="label">Jam</div>
+                    </div>
+                    <div class="time-box">
+                        <div class="number" id="ramadanMinutes">00</div>
+                        <div class="label">Menit</div>
+                    </div>
+                    <div class="time-box">
+                        <div class="number" id="ramadanSeconds">00</div>
+                        <div class="label">Detik</div>
+                    </div>
+                </div>
+                <div class="status-badge">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span class="label-event">Sisa menuju Ramadhan</span>
+                    <span class="value" id="ramadanStatusValue">-</span>
+                </div>
+                <div class="footer-note">
+                    <i>📿 1 Ramadhan 1448 H · 8 Februari 2027</i>
+                </div>
+            </div>
+
+            <!-- Card Idul Fitri -->
+            <div class="event-card card-fitri">
+                <div class="event-title">
+                    <i class="fas fa-star"></i>
+                    <h2>Idul Fitri <small>1448 H</small></h2>
+                </div>
+                <div class="countdown-grid">
+                    <div class="time-box">
+                        <div class="number" id="fitriDays">00</div>
+                        <div class="label">Hari</div>
+                    </div>
+                    <div class="time-box">
+                        <div class="number" id="fitriHours">00</div>
+                        <div class="label">Jam</div>
+                    </div>
+                    <div class="time-box">
+                        <div class="number" id="fitriMinutes">00</div>
+                        <div class="label">Menit</div>
+                    </div>
+                    <div class="time-box">
+                        <div class="number" id="fitriSeconds">00</div>
+                        <div class="label">Detik</div>
+                    </div>
+                </div>
+                <div class="status-badge">
+                    <i class="fas fa-calendar-check"></i>
+                    <span class="label-event">Sisa menuju Idul Fitri</span>
+                    <span class="value" id="fitriStatusValue">-</span>
+                </div>
+                <div class="footer-note">
+                    <i>✨ 1 Syawal 1448 H · 10 Maret 2027</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
